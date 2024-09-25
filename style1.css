@@ -1,0 +1,174 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color:white;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    font-family: "Nanum_Gothic";
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containe{
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    margin-left: 50px;  
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.logo-text{
+    font-family: "Nanum Gothic";
+    text-decoration: none;
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+    font-weight:bolder
+}
+
+.menu{
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents{
+    margin: 16px 4% 16px 4% ;
+    font-size: 19px;
+    font-family: "Nanum Gothic";
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1{
+    font-size: 30px;
+    font-family: "Nanum Gothic";
+}
+
+main{
+    width: 100%;
+}
+
+.mains{
+    width: 100%;
+}
+
+.side{
+    height: 100%;
+    width: 10%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-right: 1px solid #000 ;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    margin-top: 370%;
+}
+
+.access{
+    margin-top: 100%;
+    text-align: center;
+}
+
+.image{
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    margin: auto;
+}
+
+.eff{
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.3s;
+}
+.eff:hover{
+	color: black;
+}
+.eff::before{
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -4px;
+	width: 0;
+	height: 1px;
+	background: black;
+	transition: 0.3s;
+}
+.eff:hover::before{
+	left: 0;
+	width: 100%;
+}
+
+.a {
+    width: 100%;
+    height: 100%;
+    background-color: #211E55;
+}
+
+.b{
+    width: 100%;
+    height: 100%;
+    background-color: #211E55;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.ab{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    display:  flex;
+}
+
+.ab-img{
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+}
+
+.tex{
+    position: absolute;
+    font-family: Baskerville;
+    color: white;
+    font-size: 70px;
+    top: 45%;
+    left: 5%;
+}
